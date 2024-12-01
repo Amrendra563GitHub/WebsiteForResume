@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!-<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Personal Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="logo.png" alt="Logo" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">  
+                    <p class="Design"> .❉ Web/App Developer ❉.</p>
+                    <h1>Hii!, I'm <span class="Animat" >Amrendra Kumar</span><br> From Ghazipur</h1>
+                </div>
+            </div>
+        </div>
+    <!----------------------about----------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="user.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h2 class="sub-title">About Me</h2>
+                         <p>For the past decade, Literary Hub has brought you the best of the book world for free—no paywall. But our future relies on you. In return for a donation, you’ll get an ad-free reading experience, exclusive editors’ picks, book giveaways, and our coveted Joan Didion Lit Hub tote bag. Most importantly, you’ll keep independent book coverage alive and thriving on the internet.</p>
+
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Traning')">Traning</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Design</span><br>Designing Web/Apps interface</li>
+                                <li><span>Web Development</span><br>Web/Apps Development</li>
+                                <li><span>Apps Development</span><br>Building Mobile Apps</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="Traning">
+                            <ul>
+                                <li><span>28/AGUST/2023 TO 30/SEPTEMBER/2023</span><br>ARTIFICIAL INTELLIGENCE in SAMSUNG Innovation Camp</li>
+                                <li><span>12/APRIL/2023 TO 12/MAY/2023</span><br>Web Development  in Acmegrade</li>
+                                <li><span>14/06/2023 TO 17/08/2023</span><br>Web/App Development  in  RDSO (Research Design and Standards Organization)</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2017</span><br>Highschool<br>TRIVENI UMV SAYAR BHADAURA, GHAZIPUR</li>
+                                <li><span>2019</span><br>Intermediate<br>H M P I C GORA BAZAR, GHAZIPUR</li>
+                                <li><span>2024</span><br>B.Tech (Computer Engineering)<br>BABASAHEB BHIMRAO AMBEDKAR UNIVERSITY, LUCKNOW</li>
+                            </ul>
+                         </div>
+                    </div>
+                </div> 
+            </div>    
+        </div>
+
+        <!------------Services----------------------->
+        <div id="services">
+            <div class="container">
+                <h2 class="sub-title">My Services</h2>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        
+                        <h2>Web Design</h2>
+                        <p>Web design focuses on the visual and functional aspects of a website. It involves planning, creating, and arranging content to make a site user-friendly, aesthetically pleasing, and aligned with the brand’s identity. </p>
+                            <a href="https://en.wikipedia.org/wiki/Web_design">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>Web Development</h2>
+                        <p>Website development involves creating, building, and maintaining websites or web applications. It encompasses both the technical aspects (coding, functionality) and sometimes design elements to ensure the site meets user and business needs. </p>
+                            <a href="https://en.wikipedia.org/wiki/Web_development">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Apps Development</h2>
+                        <p>Apps development involves designing, creating, and maintaining software applications for various platforms like smartphones, tablets, or desktops. It focuses on providing specific functionalities to meet user or business needs. </p>
+                            <a href="https://en.wikipedia.org/wiki/Mobile_app_development">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------Portfolio----------------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="work-1.png">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>Design and development of a social media app for users to connect and share content.</p>
+                            <a href="https://www.instagram.com/invites/contact/?igsh=1wkq9f8yw1mee&utm_content=215pk0g"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                              </svg></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work-2.png">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>Design and development of a social media app for users to connect and share content.</p>
+                            <a href="https://music.youtube.com/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                              </svg></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work-3.png">
+                        <div class="layer">
+                            <h3>Online Shoping App</h3>
+                            <p>Design and development of a social media app for users to connect and share content.</p>
+                            <a href="https://www.amazon.in/?&tag=googhydrabk1-21&ref=pd_sl_7hz2t19t5c_e&adgrpid=155259815513&hvpone=&hvptwo=&hvadid=674842289437&hvpos=&hvnetw=g&hvrand=14327403505793802139&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9302611&hvtargid=kwd-10573980&hydadcr=14453_2316415&gad_source=1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                              </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">see more</a>
+            </div>   
+        </div>
+
+        <!----------------conect------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-sharp fa-solid fa-paper-plane"></i> amrendrakumar841@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> 8423119140</p>
+                        <p><i class="fa-solid fa-address-book"></i> Address: Ghazipur, Uttar Pradesh</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/profile.php?id=100005448017951"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/invites/contact/?igsh=1wkq9f8yw1mee&utm_content=215pk0g"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/amrendra-kumar-514564330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://x.com/Amrendr13324508?s=08"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <a href="my-cv.pdf" download class="btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message (Aap ko Mujhase Kuchh Kahana Hai Or Koi Bhi Sikayat Hai To Yeha Likhe)" required></textarea>
+                            <button type="submit" class="btn btn2">submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Amrendra Kumar.<i class="fa-solid fa-heart"></i> All rights reserved.</p>
+            </div>
+        </div>
+
+
+
+
+        <script src="index.js" async defer>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for(tablink of tablinks ){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+            }
+        </script>
+
+
+
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>  
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzFGizs2xY_uMjZX6sgSEeTwYj3MfTMmVH9fM98BOF3e1GUS3AxFUu4z-JN_Jx80oGRjw/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById('msg')
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Form submitted successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+    
+
+
+        
+    </body>
+</html>
